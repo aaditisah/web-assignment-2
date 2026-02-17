@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 10px;
+}
+
+.card {
+    background-color: #1f2a38;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.netflix-box {
+    background-color: #e50914;
+    padding: 40px 15px;
+    border-radius: 10px;
+}
+
+.netflix-box p {
+    margin: 0 0 15px;
+    font-weight: bold;
+}
+
+.netflix-box a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.netflix-box a:hover {
+    background-color: white;
+    color: #e50914;
+}
